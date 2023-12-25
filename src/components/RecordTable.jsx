@@ -8,11 +8,11 @@ const RecordTable = () => {
   const { records } = useContext(GeneralContext);
   return (
     <section>
-      <div className="relative shadow-md sm:rounded-lg overflow-hidden">
+      <div className="relative shadow-md sm:rounded-lg overflow-hidden ">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead className="text-xs text-gray-700 uppercase bg-gray-200 dark:bg-gray-700 dark:text-gray-400">
-            <tr className=" ">
-              <th scope="col" className="px-6 py-4">
+            <tr className="section ">
+              <th scope="col" className="px-6 py-4 font-bold text-red-600">
                 #
               </th>
               <th scope="col" className="px-6 py-4">
@@ -33,7 +33,10 @@ const RecordTable = () => {
           <tfoot>
             {records.length > 0 && (
               <tr className="border-b box">
-                <td className="px-6 py-4 text-center" colSpan="4">
+                <td
+                  className="px-6 py-4 text-center font-bold text-red-600"
+                  colSpan="4"
+                >
                   Total
                 </td>
                 <td className="px-6 py-4 text-end" id="recordTotal">
