@@ -25,7 +25,7 @@ const CheckoutForm = () => {
     quantityRef.current.value = "";
   };
   return (
-    <section className="mb-10 block print:hidden">
+    <section className="mb-10 block print:hidden box">
       <div id="recordForm">
         <div className="grid grid-cols-5 gap-3">
           <div className="col-span-2">

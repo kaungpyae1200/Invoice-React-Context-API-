@@ -9,7 +9,7 @@ const ProductDrawer = () => {
   return (
     <div
       id="productDrawer"
-      className={`h-screen w-96 bg-white fixed right-0 shadow-lg overflow-scroll duration-200 ${
+      className={`h-screen w-96 bg-white fixed right-0 shadow-lg overflow-scroll duration-200 drawer ${
         !openDrawer && "translate-x-full"
       }`}
     >

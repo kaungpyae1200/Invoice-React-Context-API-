@@ -32,7 +32,7 @@ const RecordTable = () => {
           <RecordGroup />
           <tfoot>
             {records.length > 0 && (
-              <tr className="border-b">
+              <tr className="border-b box">
                 <td className="px-6 py-4 text-center" colSpan="4">
                   Total
                 </td>
