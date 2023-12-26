@@ -6,7 +6,7 @@ const Header = () => {
       <h1 className="text-3xl font-bold text-green-300 w-auto text-center  shadow-lg shadow-cyan-500/50 ">
         MMS Solutions
       </h1>
-      <h4 className="text-xl text-green-300 ">Invoice App</h4>
+      <h4 className="text-xl text-green-300 ">Invoice Applications</h4>
     </header>
   );
 };
