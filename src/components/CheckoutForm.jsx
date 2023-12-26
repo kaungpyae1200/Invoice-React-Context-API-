@@ -25,13 +25,13 @@ const CheckoutForm = () => {
     quantityRef.current.value = "";
   };
   return (
-    <section className="mb-10 block print:hidden box">
+    <section className="mb-10 block print:hidden ">
       <div id="recordForm">
         <div className="grid grid-cols-5 gap-3">
           <div className="col-span-2">
             <label
               htmlFor="productSelect"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 text-sm font-bold  text-gray-300"
             >
               Select Your Product
             </label>

@@ -9,7 +9,7 @@ const Record = ({ record: { id, name, price, quantity, cost }, index }) => {
   };
   return (
     <tr
-      className="group odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700"
+      className="group  odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700"
       product-id="2"
     >
       <td className="px-6 py-4 td-counter">{index + 1}</td>
